@@ -4,9 +4,19 @@
 The Flashcards Web Application is a full-stack solution for creating, managing, and using flashcards for learning and revision purposes. It features a React frontend and a NestJS backend.
 
 ## Backend Features
-- Secure user authentication and authorization with JWT.
-- Persistence of flashcards and decks with relational database management.
-- Validation and error handling following RESTful principles.
+- **JWT Authentication**: Secures API endpoints to ensure data integrity and user privacy.
+- **Database Integration**: Utilizes PostgreSQL for persistent storage of flashcards and decks.
+- **RESTful API**: Offers comprehensive endpoints for CRUD operations, user management, and more.
+
+## Frontend Features
+- **Interactive UI**: Enables users to seamlessly create, view, edit, and delete flashcards and decks.
+- **User Authentication**: Manages user registration, login, and session handling.
+- **Dynamic Data Interaction**: Communicates with the backend to fetch and display flashcard data.
+
+## Overall Functionality
+- **User Management**: Supports account creation, login, and account settings.
+- **Deck and Card Operations**: Users can manage decks and their associated flashcards with ease.
+- **Responsive Design**: The app's design ensures usability across different devices and screen sizes.
 
 ## API Endpoints
 - **Card Management**
